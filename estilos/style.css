@@ -23,11 +23,23 @@ main{
 }
 
 section#telefone{
+    /*Posição absoluta para centralizar a section*/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /*largura e altura da section*/
     height: 627px;
     width: 311px ;
+    /*imagem no fundo da section*/
     background: url('../imagens/frame-iphone.png') no-repeat ;
+}
+
+iframe#tela{
+    /*configurações para ajustar a imagem dentro da section ID telefone*/
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
