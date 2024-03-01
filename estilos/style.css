@@ -29,17 +29,37 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
     /*largura e altura da section*/
-    height: 627px;
-    width: 311px ;
+    height: 444px;
+    width: 220px ;
     /*imagem no fundo da section*/
-    background: url('../imagens/frame-iphone.png') no-repeat ;
+    background: url('../imagens/frame-iphone-220.png') no-repeat ;
 }
 
 iframe#tela{
-    /*configurações para ajustar a imagem dentro da section ID telefone*/
+    /*configurações para ajustar o iframe dentro da section ID telefone*/
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 269px;
-    height: 471px;
+    top: 57px;
+    left: 17px;
+    width: 187px;
+    height: 333px;
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    transform: translate(-10px, 0px);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.616);
+    transition: transform 0.5s, border 0.5s;
+    
 }
