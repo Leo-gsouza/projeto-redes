@@ -13,13 +13,13 @@ html, body{
 }
 
 body{
-    background: url('../imagens/fundo-social-media.jpg')  center center no-repeat fixed;
+    background: url('../imagens/fundo-programation.jpg')  center center no-repeat fixed;
     background-size: cover;
 }
 
 main{
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.63);
+    background-color: rgba(0, 0, 0, 0.76);
     position: relative;
 }
 
@@ -31,12 +31,12 @@ section#telefone{
     transform: translate(-50%, -50%);
     /*largura e altura da section*/
     /*Foi usado as medidas da imagem*/
-    height: 444px;
-    width: 220px ;
+    height: 442px;
+    width: 216px ;
     /*imagem no fundo da section*/
     background: url('../imagens/frame-iphone-220.png') no-repeat ;
     box-shadow: 10px 10px 12px rgb(0, 0, 0);
-    border-radius: 42px;
+    border-radius: 36px;
 }
 
 iframe#tela{
@@ -52,6 +52,7 @@ section#redes-sociais{
     text-align: right;
 }
 
+/*configurações para icones das redes */
 section#redes-sociais img {
     width: 50px;
     margin: 10px;
