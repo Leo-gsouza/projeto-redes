@@ -18,6 +18,7 @@ img {
 }
 
 a {
+    /*Botão criado usando link*/
     display: block;
     background-color: darkred;
     color: white;

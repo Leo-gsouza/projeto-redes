@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    font-variant: small-caps;
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+
+a{
+    display: block;
+    text-align: center;
+    background-color: darkslategrey;
+    color: yellow;
+    width: 200px;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: auto;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+a:hover{
+   
+    background-color: rgb(248, 248, 135);
+    color: darkslategray;
+    transition: 1s;
+    
+}
+
+form{
+    margin: auto;
+    width: 500px;
+    font-variant: small-caps;
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+
+}
+
+form p, div{
+    margin: 15px;
+}
+
+form  input{
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 15px;
+}
+
+form  input:hover{
+    background-color: lightgoldenrodyellow;
+    box-shadow: 0px 0px 20px white;
+}
+
+.submit{
+    width: 80px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    box-shadow: 0px 0px 6px white;
+    margin: 10px;
+}
+
+p{
+    padding: 5px 20px;
+    text-indent: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+body > h2{
+    padding: 20px;
+    font-variant: small-caps;
+    color: darkslategrey;
+    background-image: linear-gradient(to right, lightgoldenrodyellow , transparent);
+}
+
+ul{
+    padding: 5px 40px;
+}
+
+

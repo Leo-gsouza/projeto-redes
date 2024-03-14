@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Form 01</h1>
+    </header>
+    <form action="cadastro.py" method="post" autocomplete="on">
+        <div>
+            <label for="iusu">Usuário:</label><br>
+            <input type="text" name="usu" id="iusu" required minlength="8" size="10" placeholder="minimo 8 letras" autocomplete="username">
+        </div>
+        <div>
+            <label for="isen">Senha:</label><br>
+            <input type="password" name="sen" id="isen" required minlength="4" maxlength="8" size="10" placeholder="minino 4 letras" autocomplete="current-password">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+    <p><strong>Required</strong> faz com que apareça uma mensagem para preencher o formulário - Aviso</p>
+    <p><strong>minlenght/maxlenght</strong> minimo e máximo de caracter no preenchimento do formulário</p>
+    <p><strong>size</strong> numero de caracter visualizado na caixa</p>
+    <p><strong>placeholder</strong>informação dentro da caixa para o usuario</p>
+    <p><strong>autocomplete</strong>o autocomplete tem a função de deixar salvo os dados preecnchidos pelo usuario no formulario. Se for ativa-lo para ajudar no preenchimento é necessario inseri-lo no FORM - autocomplete=on e nos inputs do formulario de acordo com cada um. exemplo. No nome de usuario usar <strong>autocomplete=username</strong>, na senha usar o <strong>autocomplete=current-password</strong> e assim por diante</p>
+</body>
+</html>

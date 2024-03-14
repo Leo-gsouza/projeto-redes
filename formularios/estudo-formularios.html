@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/formulario.css">
+    <title>Estudo formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Meu primeiro formulário</h1>
+    </header>
+    <form action="cadastro.py" autocomplete="off" method="post">
+        <h2>Formulario basico</h2>
+        <p><label for="inome">Nome:</label><br><input type="text" name="nome" id="inome"> </p>
+        <p><label for="isobrenome">Sobrenome:</label><br><input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input class="submit" type="submit" value="Enviar"></p>
+    </form>
+    <a href="../formularios/form.html">Acessar pagina form1</a>
+    <a href="../formularios/form2.html">Acessar pagina form2</a>
+    <p><strong>input text</strong> = Coletar informação de texto</p>
+    <p><strong>input submit</strong> = Criar botáo para enviar formulário</p>
+    <p><strong>autocomplete</strong> = Preenchimento automatico de dados</p>
+    <p><strong>action</strong> = Local/Linguagem que será enviado o formulário</p>
+    <p><strong>method=post</strong> Tira a visulaização do formulario da URL, mas isso não quer dizer que ela não exista. Basta aceessar o devtools » network » header e entrar no arquivo para ver os dados digitados no formulario</p>
+    <p><strong>Estudar https para deixar o site seguro</strong></p>
+    <h2>Diferença entre NAME e ID</h2>
+    <p>Name é mais util para <strong>HTML e CSS</strong> e o ID mais util para a <strong>liguagem de programação</strong></p>
+    <p>Label = Tem a função de relacionar o input ao seu elemento. No primeiro caso acima o label <strong>Nome</strong> está relacionado ao <strong>ID inome</strong>  </p>
+    <h2>Quando usar GET e POST</h2>
+    <p>Usar Get (padrão)</p>
+    <ul type="none">
+        <li>Dados simples</li>
+        <li>Se quiser que a url seja compartilhada</li>
+        <li>O formulario não utrapassar 3 mil bytes = 3 mil letras + ou - </li>
+    </ul>
+    <p>Usar Post</p>
+    <ul type="none">
+        <li>Dados sensiveis - menos senhas de cartoes entre outras informações muito sensiveis (estudar https)</li>
+        <li>O formulario utrapassar 3 mil bytes = 3 mil letras + ou - </li>
+        <li>Se desejar enviar arquivos</li>
+    </ul>
+
+</body>
+</html>
