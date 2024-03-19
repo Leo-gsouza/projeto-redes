@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Box e Radio Button</title>
+    <link rel="stylesheet" href="../estilos/formulario.css">
+</head>
+<body>
+    <h1>Check Box e Radio Button</h1>
+    <form action="cadastro.py" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="bas" id="ibas"><label for="ibas">Basquete</label><br>
+            <label for="ifut"><input type="checkbox" name="fut" id="ifut">Futebol</label><br>
+            <label for="ivol"><input type="checkbox" name="vol" id="ivol">Volei</label><br>
+            <label for="ibox"><input type="checkbox" name="box" id="ibox">Boxe</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imas" checked><label for="imas">Masculino</label>
+            <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+        </fieldset>
+    </form>
+</body>
+</html>
